@@ -1,7 +1,7 @@
 === WP Floating Menu Framework ===
 Contributors: Kimiya Kitani
 Tags: mime,file extention
-Requires at least: 3.0
+Requires at least: 4.0
 Tested up to: 4.0
 Stable tag: 1.0.0
 
@@ -24,10 +24,12 @@ This is the Japanese translation.
 
 == Installation ==
 
-インストールして有効化したのち、floating-menu.jsのname, page, adminbarの値を編集してください。
-あるいは、sampleフォルダ内のjsファイルを、floating-menu.jsにコピーしても構いません。
+1. プラグインをインストールして有効化にする
+2. 設定の「Floating Menu設定」より利用したいJavaScriptを有効にして選択する
 
-もし「floating-menu.js」が存在しないなどで、１秒以上アクセスできない場合には、フローティングメニューは動作しません。この時間は、kimipooh_url_check.phpのtimeoutをご覧ください。
+もしJavaScriptファイルをご自身の環境に適応させるため、カスマイズしたい場合には
+jsフォルダ内のtemplatesフォルダ以下にあるテンプレートを、jsフォルダにコピーしてリネームし、
+JavaScript内のname, page, adminbarなどの値を編集してください。
 
 = Usage =
 
